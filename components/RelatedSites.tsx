@@ -1,15 +1,14 @@
 import Link from 'next/link'
 
 const RELATED_SITES = [
-  { name: "フィットネスLAB", url: "https://fitness-lab-jp.vercel.app" },
-  { name: "ピラティスLAB", url: "https://pilates-lab-jp.vercel.app" },
-  { name: "ランニングLAB", url: "https://running-lab-jp.vercel.app" },
-  { name: "ストレッチLAB", url: "https://stretch-lab-jp.vercel.app" },
-  { name: "スイムノート", url: "https://swim-note-jp.vercel.app" },
-  { name: "ヨガポーズJP", url: "https://yoga-pose-jp.vercel.app" },
-  { name: "ゴルフLAB", url: "https://golf-lab-jp.vercel.app" },
-  { name: "サウナログ", url: "https://sauna-log-jp.vercel.app" },
-
+  { name: "アフィリエイトLAB", url: "https://affiliate-lab-jp.vercel.app" },
+  { name: "FXノート", url: "https://fx-note-jp.vercel.app" },
+  { name: "フリーランスノート", url: "https://freelance-note-jp.vercel.app" },
+  { name: "投資LAB", url: "https://investment-lab-jp.vercel.app" },
+  { name: "ローンノート", url: "https://loan-note-jp.vercel.app" },
+  { name: "マネーノート", url: "https://money-note-jp.vercel.app" },
+  { name: "NISAノート", url: "https://nisa-note-jp.vercel.app" },
+  { name: "節約LAB", url: "https://saving-lab-jp.vercel.app" },
 ]
 
 export default function RelatedSites() {
@@ -46,7 +45,6 @@ export default function RelatedSites() {
               fontSize: '0.8rem',
               color: '#495057',
               textDecoration: 'none',
-              transition: 'all 0.2s'
             }}
           >
             {site.name}
